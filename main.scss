@@ -1,0 +1,57 @@
+body{
+    background: url("AmTicket.jpg");
+    background-size: 100% 100%;
+    font-size: 62.5%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}  
+p{
+    font-size: 3.2vh;
+    background: rgb(54, 54, 54);
+    color: white;
+    font-weight: lighter;
+    position: absolute;
+    right: 3.7%;
+    top: 47%;
+}
+#summon1{
+    border: none;
+    position: absolute;
+    bottom: 27.3%;
+    right: 3.1%;
+    background-color: rgba(0, 128, 0, 0.1);
+    border-radius: 50%;
+    width: 10%;
+    height: 18%;
+}
+#summon10{
+    position: absolute;
+    font-size: 5rem;
+    bottom: 3%;
+    right: 3.1%;
+    background-color: rgba(17, 54, 17, 0.1);
+    border-radius: 50%;
+    width: 10%;
+    height: 18%;
+}
+.modal-content{
+    background: url("https://b.thumbs.redditmedia.com/zAAYozGAiF9uiBKyauvq3eZCEB69JH4ZDJcoSzUXySA.png");
+    background-size: contain;
+    color: white;
+}
+.close{
+    color: white;
+    opacity: 1;
+    &:hover{
+        color: aliceblue;
+    }
+}
+
+.modal-body{
+    text-align: center;
+    img{
+        height: 50vh;
+        width: 100%;
+    }
+}
+    

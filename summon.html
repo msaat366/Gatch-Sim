@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main2.css">
+</head>
+<body onload="summon10()">
+    <div class="loader_bg">    
+        <div class="loader">Loading...</div>
+    </div>
+    <div class="summoning">
+        <div class="s1 same" onclick="modalshow(0)">
+           
+        </div>
+        <div class="s2 same" onclick="modalshow(1)">
+           
+        </div>
+        <div class="s3 same" onclick="modalshow(2)">
+            
+        </div>
+        <div class="s4 same" onclick="modalshow(3)">
+            
+        </div>
+        <div class="s5 same" onclick="modalshow(4)">
+             
+        </div>
+        <div class="s6 same" onclick="modalshow(5)">
+            
+        </div>
+        <div class="s7 same" onclick="modalshow(6)">
+           
+        </div>
+        <div class="s8 same" onclick="modalshow(7)">
+            
+        </div>
+        <div class="s9 same" onclick="modalshow(8)">
+           
+        </div>
+        <div class="s10 same" onclick="modalshow(9)">
+           
+        </div>
+    </div>
+    <div class="back">
+        <a href="index.html">
+            BACK
+        </a>
+    </div>
+    <div id="myModal" class="imgmodal">
+        <span class="close">&times;</span>
+            <div class="Image-content" id="img01"></div>
+    <script src="main.js"></script>
+    <script>
+        setTimeout(() => {
+            const loader_bg = document.querySelector(".loader_bg");
+            const loader = document.querySelector(".loader")
+            loader.className += "hidden";
+            loader_bg.className += "hidden";
+    }, 5000)
+        
+    document.read
+    let modal = document.getElementById("myModal");
+    let img = document.getElementsByClassName("same")
+    let modalImg = document.getElementById("img01");
+
+    function modalshow(i){
+        modal.style.display ="block";
+        console.log(i);
+        modalImg.style.backgroundImage = img[i].style.backgroundImage ; 
+    }
+
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function() { 
+    modal.style.display = "none";
+    }
+    </script>
+</body>
+</html>
