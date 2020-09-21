@@ -1,5 +1,5 @@
 body {
-  background: url("https://b.thumbs.redditmedia.com/zAAYozGAiF9uiBKyauvq3eZCEB69JH4ZDJcoSzUXySA.png");
+  background: url("https://i.imgur.com/4QRKPqLh.png");
   background-size: cover;
   background-attachment: fixed;
   margin: 0;
@@ -104,17 +104,18 @@ body {
           justify-content: center;
   position: absolute;
   top: 15%;
-  width: 96.3%;
+  width: 96%;
   background-size: 90% 90%;
 }
 
 .same {
-  background-size: 60%;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 22vh;
+  height: 18vh;
   display: block;
+  margin: 2%;
   text-align: center;
-  width: 20%;
+  width: 15%;
   margin-top: 0.5rem;
 }
 
